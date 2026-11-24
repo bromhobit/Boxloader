@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Boxloader
+GenericName=iOS IPA Installer
+GenericName[ru]=Установка IPA на iPhone
+Comment=Sign and install IPA apps on iPhone over USB
+Comment[ru]=Подпись и установка IPA на iPhone по USB
+Exec=boxloader
+Icon=boxloader
+Terminal=false
+Categories=Utility;
+StartupNotify=true
+StartupWMClass=Boxloader

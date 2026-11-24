@@ -1,0 +1,14 @@
+[package]
+name = "boxloader-launcher"
+version = "0.2.2"
+edition = "2024"
+description = "Native ELF launcher embedding CPython for the Boxloader PySide6 GUI"
+
+[[bin]]
+name = "boxloader"
+path = "src/main.rs"
+
+[profile.release]
+strip = true
+lto = true
+panic = "abort"
